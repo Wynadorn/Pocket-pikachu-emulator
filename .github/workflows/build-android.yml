@@ -1,0 +1,61 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [ "claude/create-implementation-plan-dotnet-maui", "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build-android:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '9.0.x'
+
+    - name: Install .NET MAUI workload
+      run: dotnet workload install maui
+
+    - name: Restore dependencies
+      run: dotnet restore PocketPikachuMaui/PocketPikachuMaui.csproj
+
+    - name: Build Android APK
+      run: |
+        dotnet publish PocketPikachuMaui/PocketPikachuMaui.csproj `
+          -f net9.0-android `
+          -c Release `
+          -p:AndroidPackageFormats=apk `
+          -p:AndroidKeyStore=false `
+          -o ./output
+
+    - name: Find APK file
+      id: find-apk
+      shell: pwsh
+      run: |
+        $apkPath = Get-ChildItem -Path ./output -Filter "*.apk" -Recurse | Select-Object -First 1 -ExpandProperty FullName
+        Write-Output "apk-path=$apkPath" >> $env:GITHUB_OUTPUT
+        Write-Output "APK found at: $apkPath"
+
+    - name: Upload APK artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: PocketPikachu-Android-APK
+        path: ${{ steps.find-apk.outputs.apk-path }}
+        retention-days: 30
+
+    - name: Create release info
+      if: github.event_name == 'push'
+      shell: pwsh
+      run: |
+        $apkPath = "${{ steps.find-apk.outputs.apk-path }}"
+        $apkSize = (Get-Item $apkPath).Length / 1MB
+        Write-Output "✅ APK built successfully!"
+        Write-Output "📦 Size: $([math]::Round($apkSize, 2)) MB"
+        Write-Output "📥 Download from the Actions artifacts tab above"

@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Components.WebView.Maui;
 using PocketPikachuMaui.Interfaces;
-using System.Text.Json;
 
 namespace PocketPikachuMaui.Services;
 
@@ -42,9 +41,9 @@ public class StepCounterManager
         // Start tracking
         await _stepCounterService.StartTrackingAsync();
 
-        // Set up timer to periodically update the WebView
-        _updateTimer = new System.Timers.Timer(2000); // Update every 2 seconds
-        _updateTimer.Elapsed += async (s, e) => await UpdateWebView();
+        // Set up timer to periodically log step count
+        _updateTimer = new System.Timers.Timer(5000); // Update every 5 seconds
+        _updateTimer.Elapsed += async (s, e) => await LogStepCount();
         _updateTimer.Start();
     }
 
@@ -62,44 +61,31 @@ public class StepCounterManager
     {
         MainThread.BeginInvokeOnMainThread(async () =>
         {
-            await UpdateWebView();
+            await LogStepCount();
         });
     }
 
-    private async Task UpdateWebView()
+    private async Task LogStepCount()
     {
         if (_webView == null) return;
 
         try
         {
             var stepCount = await _stepCounterService.GetStepCountAsync();
+            var todaySteps = await _stepCounterService.GetTodayStepsAsync();
 
             if (stepCount != _lastStepCount)
             {
                 _lastStepCount = stepCount;
+                Console.WriteLine($"Native Step Counter: Total={stepCount}, Today={todaySteps}");
 
-                // Inject JavaScript to update step count
-                var script = $@"
-                    if (typeof pokeStatus !== 'undefined') {{
-                        var newSteps = {stepCount};
-                        var stepDiff = newSteps - (pokeStatus.steps || 0);
-                        if (stepDiff > 0) {{
-                            for (var i = 0; i < stepDiff && i < 10; i++) {{
-                                if (typeof shakeButtonAction === 'function') {{
-                                    shakeButtonAction();
-                                }}
-                            }}
-                        }}
-                        console.log('Updated steps from native: ' + newSteps);
-                    }}
-                ";
-
-                await _webView.EvaluateJavaScriptAsync(script);
+                // TODO: Inject steps into JavaScript once JSInterop is properly configured
+                // For now, the user can manually use the shake button in the web app
             }
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Error updating WebView: {ex.Message}");
+            Console.WriteLine($"Error reading step count: {ex.Message}");
         }
     }
 }

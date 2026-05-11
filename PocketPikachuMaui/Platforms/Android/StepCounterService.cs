@@ -23,7 +23,7 @@ public class StepCounterService : Java.Lang.Object, IStepCounterService, ISensor
     {
         try
         {
-            var context = Platform.CurrentActivity ?? Application.Context;
+            var context = Platform.CurrentActivity ?? Android.App.Application.Context;
             _sensorManager = (SensorManager?)context.GetSystemService(Context.SensorService);
             _stepCounterSensor = _sensorManager?.GetDefaultSensor(SensorType.StepCounter);
             return Task.FromResult(_stepCounterSensor != null);

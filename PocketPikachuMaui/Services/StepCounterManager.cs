@@ -1,5 +1,8 @@
 using Microsoft.AspNetCore.Components.WebView.Maui;
 using PocketPikachuMaui.Interfaces;
+#if ANDROID
+using PocketPikachuMaui.Platforms.Android;
+#endif
 
 namespace PocketPikachuMaui.Services;
 
@@ -76,11 +79,17 @@ public class StepCounterManager
 
             if (stepCount != _lastStepCount)
             {
+                var stepDifference = stepCount - _lastStepCount;
                 _lastStepCount = stepCount;
-                Console.WriteLine($"Native Step Counter: Total={stepCount}, Today={todaySteps}");
+                Console.WriteLine($"Native Step Counter: Total={stepCount}, Today={todaySteps}, Diff={stepDifference}");
 
-                // TODO: Inject steps into JavaScript once JSInterop is properly configured
-                // For now, the user can manually use the shake button in the web app
+                // Inject steps into JavaScript by calling the walk() function
+#if ANDROID
+                for (int i = 0; i < stepDifference; i++)
+                {
+                    CustomBlazorWebViewHandler.ExecuteJavaScript("walk();");
+                }
+#endif
             }
         }
         catch (Exception ex)

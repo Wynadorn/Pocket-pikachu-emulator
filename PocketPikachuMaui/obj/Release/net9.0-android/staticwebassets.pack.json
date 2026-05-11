@@ -1,0 +1,129 @@
+{
+  "Files": [
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/anims.json",
+      "PackagePath": "staticwebassets/anims.json"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/fonts/SuperTrend.ttf",
+      "PackagePath": "staticwebassets/fonts/SuperTrend.ttf"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/fonts/digitalMono7.ttf",
+      "PackagePath": "staticwebassets/fonts/digitalMono7.ttf"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/img/backgorundPika.png",
+      "PackagePath": "staticwebassets/img/backgorundPika.png"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/img/backgorundPikaSmall.png",
+      "PackagePath": "staticwebassets/img/backgorundPikaSmall.png"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/img/buttonResetShape.png",
+      "PackagePath": "staticwebassets/img/buttonResetShape.png"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/img/buttonResetShapeDark.png",
+      "PackagePath": "staticwebassets/img/buttonResetShapeDark.png"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/img/buttonShape.png",
+      "PackagePath": "staticwebassets/img/buttonShape.png"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/img/buttonShapeDark.png",
+      "PackagePath": "staticwebassets/img/buttonShapeDark.png"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/img/buttonShapeLong.png",
+      "PackagePath": "staticwebassets/img/buttonShapeLong.png"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/img/buttonShapeLongDark.png",
+      "PackagePath": "staticwebassets/img/buttonShapeLongDark.png"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/img/clock.png",
+      "PackagePath": "staticwebassets/img/clock.png"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/img/coins.png",
+      "PackagePath": "staticwebassets/img/coins.png"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/img/cruceta-shadow.png",
+      "PackagePath": "staticwebassets/img/cruceta-shadow.png"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/img/cruceta.png",
+      "PackagePath": "staticwebassets/img/cruceta.png"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/img/crucetaDark.png",
+      "PackagePath": "staticwebassets/img/crucetaDark.png"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/img/eatingGif.gif",
+      "PackagePath": "staticwebassets/img/eatingGif.gif"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/img/favicon.ico",
+      "PackagePath": "staticwebassets/img/favicon.ico"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/img/gift.png",
+      "PackagePath": "staticwebassets/img/gift.png"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/img/logoPikachu300ppp.png",
+      "PackagePath": "staticwebassets/img/logoPikachu300ppp.png"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/img/logopikachu.png",
+      "PackagePath": "staticwebassets/img/logopikachu.png"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/img/logopikachunegro.png",
+      "PackagePath": "staticwebassets/img/logopikachunegro.png"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/img/thumbnail.png",
+      "PackagePath": "staticwebassets/img/thumbnail.png"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/script.js",
+      "PackagePath": "staticwebassets/script.js"
+    },
+    {
+      "Id": "/home/runner/work/Pocket-pikachu-emulator/Pocket-pikachu-emulator/PocketPikachuMaui/wwwroot/style.css",
+      "PackagePath": "staticwebassets/style.css"
+    },
+    {
+      "Id": "obj/Release/net9.0-android/staticwebassets/msbuild.PocketPikachuMaui.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Release/net9.0-android/staticwebassets/msbuild.PocketPikachuMaui.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net9.0-android/staticwebassets/msbuild.build.PocketPikachuMaui.props",
+      "PackagePath": "build\\PocketPikachuMaui.props"
+    },
+    {
+      "Id": "obj/Release/net9.0-android/staticwebassets/msbuild.buildMultiTargeting.PocketPikachuMaui.props",
+      "PackagePath": "buildMultiTargeting\\PocketPikachuMaui.props"
+    },
+    {
+      "Id": "obj/Release/net9.0-android/staticwebassets/msbuild.buildTransitive.PocketPikachuMaui.props",
+      "PackagePath": "buildTransitive\\PocketPikachuMaui.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

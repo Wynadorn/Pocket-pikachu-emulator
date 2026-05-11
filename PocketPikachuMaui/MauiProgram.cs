@@ -1,6 +1,7 @@
 using Microsoft.Extensions.Logging;
 using PocketPikachuMaui.Services;
 using PocketPikachuMaui.Interfaces;
+using Microsoft.AspNetCore.Components.WebView.Maui;
 
 #if ANDROID
 using PocketPikachuMaui.Platforms.Android;
@@ -18,6 +19,13 @@ public static class MauiProgram
             .ConfigureFonts(fonts =>
             {
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+            })
+            .ConfigureMauiHandlers(handlers =>
+            {
+#if ANDROID
+                // Register custom BlazorWebView handler for JavaScript injection
+                handlers.AddHandler<BlazorWebView, CustomBlazorWebViewHandler>();
+#endif
             });
 
         builder.Services.AddMauiBlazorWebView();

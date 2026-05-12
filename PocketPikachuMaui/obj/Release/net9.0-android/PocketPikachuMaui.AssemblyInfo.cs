@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PocketPikachuMaui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f1f736b24301f3d1a426cea9dbf5728ad89fb469")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+653ec7423c0c447e278880a7cef6026e82a4b291")]
 [assembly: System.Reflection.AssemblyProductAttribute("PocketPikachuMaui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PocketPikachuMaui")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

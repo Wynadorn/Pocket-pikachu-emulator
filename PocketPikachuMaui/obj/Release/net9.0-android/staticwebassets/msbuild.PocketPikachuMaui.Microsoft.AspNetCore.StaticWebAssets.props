@@ -17,7 +17,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>565725</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\anims.json'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\digitalMono7.ttf'))">
@@ -37,7 +37,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>34404</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\digitalMono7.ttf'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\SuperTrend.ttf'))">
@@ -57,7 +57,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>196328</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\SuperTrend.ttf'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\backgorundPika.png'))">
@@ -77,7 +77,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>9767704</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\backgorundPika.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\backgorundPikaSmall.png'))">
@@ -97,7 +97,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>242809</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\backgorundPikaSmall.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\buttonResetShape.png'))">
@@ -117,7 +117,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>4902</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\buttonResetShape.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\buttonResetShapeDark.png'))">
@@ -137,7 +137,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>5279</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\buttonResetShapeDark.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\buttonShape.png'))">
@@ -157,7 +157,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>7754</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\buttonShape.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\buttonShapeDark.png'))">
@@ -177,7 +177,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>8361</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\buttonShapeDark.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\buttonShapeLong.png'))">
@@ -197,7 +197,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>6422</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\buttonShapeLong.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\buttonShapeLongDark.png'))">
@@ -217,7 +217,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>6744</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\buttonShapeLongDark.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\clock.png'))">
@@ -237,7 +237,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>5704</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\clock.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\coins.png'))">
@@ -257,7 +257,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>5268</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\coins.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\cruceta.png'))">
@@ -277,7 +277,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>18736</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\cruceta.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\cruceta-shadow.png'))">
@@ -297,7 +297,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>5814</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\cruceta-shadow.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\crucetaDark.png'))">
@@ -317,7 +317,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>17557</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\crucetaDark.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\eatingGif.gif'))">
@@ -337,7 +337,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>4004110</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\eatingGif.gif'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\favicon.ico'))">
@@ -357,7 +357,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>54013</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\gift.png'))">
@@ -377,7 +377,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>4834</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\gift.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\logopikachu.png'))">
@@ -397,7 +397,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>11664</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\logopikachu.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\logoPikachu300ppp.png'))">
@@ -417,7 +417,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>58776</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\logoPikachu300ppp.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\logopikachunegro.png'))">
@@ -437,7 +437,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>31804</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\logopikachunegro.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\thumbnail.png'))">
@@ -457,7 +457,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>798281</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\thumbnail.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))">
@@ -477,7 +477,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>4140</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\script.js'))">
@@ -497,7 +497,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>125638</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\script.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style.css'))">
@@ -517,7 +517,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>7889</FileLength>
-      <LastWriteTime>Mon, 11 May 2026 22:13:06 GMT</LastWriteTime>
+      <LastWriteTime>Tue, 12 May 2026 10:42:41 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style.css'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>

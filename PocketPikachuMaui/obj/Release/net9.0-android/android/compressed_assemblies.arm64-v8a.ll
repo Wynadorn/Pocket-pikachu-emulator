@@ -456,7 +456,7 @@ target triple = "aarch64-unknown-linux-android21"
 		ptr @__compressedAssemblyData_86; uint8_t* data
 	}, ; 86: Xamarin.KotlinX.Serialization.Core.Jvm
 	%struct.CompressedAssemblyDescriptor {
-		i32 29696, ; uint32_t uncompressed_file_size
+		i32 30720, ; uint32_t uncompressed_file_size
 		i1 false, ; bool loaded
 		ptr @__compressedAssemblyData_87; uint8_t* data
 	}, ; 87: PocketPikachuMaui
@@ -769,7 +769,7 @@ target triple = "aarch64-unknown-linux-android21"
 @__compressedAssemblyData_84 = internal dso_local global [85504 x i8] zeroinitializer, align 1
 @__compressedAssemblyData_85 = internal dso_local global [17408 x i8] zeroinitializer, align 1
 @__compressedAssemblyData_86 = internal dso_local global [88576 x i8] zeroinitializer, align 1
-@__compressedAssemblyData_87 = internal dso_local global [29696 x i8] zeroinitializer, align 1
+@__compressedAssemblyData_87 = internal dso_local global [30720 x i8] zeroinitializer, align 1
 @__compressedAssemblyData_88 = internal dso_local global [24064 x i8] zeroinitializer, align 1
 @__compressedAssemblyData_89 = internal dso_local global [54784 x i8] zeroinitializer, align 1
 @__compressedAssemblyData_90 = internal dso_local global [14848 x i8] zeroinitializer, align 1

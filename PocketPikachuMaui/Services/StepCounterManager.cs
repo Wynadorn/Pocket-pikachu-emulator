@@ -22,32 +22,44 @@ public class StepCounterManager
     {
         _webView = webView;
 
-        // Check if step counter is available
-        var isAvailable = await _stepCounterService.IsAvailableAsync();
-        if (!isAvailable)
+        try
         {
-            Console.WriteLine("Step counter not available on this device");
-            return;
-        }
+            // Check if step counter is available
+            var isAvailable = await _stepCounterService.IsAvailableAsync();
+            if (!isAvailable)
+            {
+                Console.WriteLine("Step counter not available on this device");
+                return;
+            }
 
-        // Request permission
-        var hasPermission = await _stepCounterService.RequestPermissionAsync();
-        if (!hasPermission)
+            // Request permission
+            var hasPermission = await _stepCounterService.RequestPermissionAsync();
+            if (!hasPermission)
+            {
+                Console.WriteLine("Step counter permission denied");
+                return;
+            }
+
+            // Subscribe to step count changes
+            _stepCounterService.StepCountChanged += OnStepCountChanged;
+
+            // Start tracking
+            await _stepCounterService.StartTrackingAsync();
+
+            // Set up timer to periodically log step count
+            _updateTimer = new System.Timers.Timer(5000); // Update every 5 seconds
+            _updateTimer.Elapsed += async (s, e) => await LogStepCount();
+            _updateTimer.Start();
+
+            Console.WriteLine("Step counter initialized successfully");
+        }
+        catch (Exception ex)
         {
-            Console.WriteLine("Step counter permission denied");
-            return;
+            Console.WriteLine($"Failed to initialize step counter: {ex.Message}");
+            Console.WriteLine($"Stack trace: {ex.StackTrace}");
+            // Re-throw to let caller handle
+            throw;
         }
-
-        // Subscribe to step count changes
-        _stepCounterService.StepCountChanged += OnStepCountChanged;
-
-        // Start tracking
-        await _stepCounterService.StartTrackingAsync();
-
-        // Set up timer to periodically log step count
-        _updateTimer = new System.Timers.Timer(5000); // Update every 5 seconds
-        _updateTimer.Elapsed += async (s, e) => await LogStepCount();
-        _updateTimer.Start();
     }
 
     public void StartTracking()
